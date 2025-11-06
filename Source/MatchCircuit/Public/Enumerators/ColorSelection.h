@@ -6,7 +6,7 @@
 #include "ColorSelection.generated.h"
 
 UENUM(BlueprintType)
-enum EColorSelection : uint8
+enum class EColorSelection : uint8
 {
 	FirstLaserHit UMETA(DisplayName = "FirstLaserHit"),
 	LastLaserHit UMETA(DisplayName = "LastLaserHit"),
